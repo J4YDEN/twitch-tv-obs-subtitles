@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Vanilla';
+    src: url('VanillaExtractRegular.ttf');
+}
+
 html, body {
     position: relative;
     padding: 0;
@@ -17,9 +22,7 @@ div#subtitle {
     bottom: 75vh;
     left: 0px;
     background: transparent;
-    font-family: "San Francisco",
-        "Helvetica Neue", "Helvetica",
-        Arial, Sans-Serif;
+    font-family: "Vanilla";
     font-size: calc( 3vh + 3vw );
     font-weight: 200;
     line-height: calc( 4vh + 3vw );
